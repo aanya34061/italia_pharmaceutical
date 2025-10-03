@@ -1,38 +1,194 @@
-.App {
-  text-align: center;
+/* ---------- Color Variables ---------- */
+:root {
+  --EasternBlue: #1E899E;
+  --Jaffa: #F48434;
+  --Cinderella: #FCE0CB;
+  --RoseBud: #FCBC94;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Optional color utility classes */
+.blue {
+  background-color: var(--EasternBlue);
+}
+.orange {
+  background-color: var(--Jaffa);
+}
+.peach {
+  background-color: var(--Cinderella);
+}
+.pink {
+  background-color: var(--RoseBud);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* ---------- Navbar ---------- */
+/* Translucent blue when at top */
+.pharma-navbar.navbar-transparent {
+  background-color: rgba(154, 202, 243, 0.7); 
+  transition: background-color 0.3s ease;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Solid blue when scrolled */
+.pharma-navbar.navbar-solid {
+  background-color: var(--EasternBlue);
+  transition: background-color 0.3s ease;
 }
 
-.App-link {
-  color: #61dafb;
+/* Logo image */
+.logo-img {
+  height: 50px; /* adjust as needed */
+  width: auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Nav links */
+.pharma-nav .nav-link {
+  color: black; /* Cinderella */
+  margin-right: 15px;
+  transition: color 0.3s ease;
+}
+
+.pharma-nav .nav-link:hover {
+  color: var(--Jaffa); /* Jaffa */
+}
+
+.pharma-nav .nav-link.active {
+  color: var(--Jaffa); /* Rose Bud */
+}
+/* Make the images fit and animate smoothly */
+.slider-img {
+  max-height: 600px; /* adjust as needed */
+  object-fit: cover;
+}
+
+/* company intro */
+
+.company-intro {
+  background: #f8f9fa; /* light gray bg */
+}
+
+.intro-heading {
+  color: #1e899e; /* matches your pharma blue */
+  font-weight: 700;
+}
+
+.company-intro p {
+  line-height: 1.7;
+  color: #333;
+}
+
+.company-intro ul {
+  padding-left: 20px;
+}
+
+.company-intro li {
+  margin-bottom: 6px;
+}
+/* Services */
+.services-section {
+  background-color: #ffffff;
+}
+
+.services-heading {
+  color: #1e899e;
+  font-weight: 700;
+}
+
+.service-card {
+  background: #f8f9fa;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+/* Custom Eastern Blue Button */
+.btn-easternblue {
+  background-color: var(--EasternBlue);
+  border: none;
+  color: #fff;
+  /* transition: background-color 0.3s ease; */
+}
+
+.btn-easternblue:hover,
+.btn-easternblue:focus {
+  background-color: #16697d; /* a bit darker shade for hover */
+  color: #fff;
+}
+/* products */
+.popular-products {
+  background-color: #f8f9fa;
+}
+
+.popular-heading {
+  color: #1e899e;
+  font-weight: 700;
+}
+
+.product-card {
+  background: #fff;
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.product-img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.product-card h5 {
+  color: #1e899e;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+/* Eastern Blue Button */
+.btn-easternblue {
+  background-color: var(--EasternBlue);
+  border: none;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.btn-easternblue:hover {
+  background-color: #16697d; /* darker shade */
+  color: #fff;
+}
+.text-justify {
+  text-align:justify !important;
+}
+/* Contact Section */
+.text-easternblue {
+  color: var(--EasternBlue) !important;
+}
+
+.contact-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.contact-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.contact-form {
+  background: #ffffff;
+  border-radius: 20px;
+}
+.contact-form input,
+.contact-form textarea {
+  border: 1px solid #ddd;
+  transition: all 0.3s ease;
+}
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: var(--EasternBlue);
+  box-shadow: 0 0 8px rgba(30, 137, 158, 0.3);
+  outline: none;
 }
