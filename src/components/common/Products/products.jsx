@@ -1,7 +1,8 @@
-import React, { useEffect } from 'react';
+// import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 import herbalImg from '../../assets/herbal.png';
 import nutraImg from '../../assets/Nutraceuticals.png';
@@ -26,28 +27,28 @@ const PopularProducts = () => {
         {/* Bootstrap Grid - 2 columns per row */}
         <div className="row row-cols-1 row-cols-md-2 g-4 justify-content-center">
           <div className="col" data-aos="fade-right">
-            <div className="product-card shadow-sm rounded h-100 p-4 d-flex flex-column justify-content-center" style={{ minHeight: "280px" }}>
+            <div className="product-card shadow-sm rounded h-100 p-4 d-flex flex-column justify-content-center product-card-min">
               <img src={herbalImg} alt="Herbal" className="product-img mb-3" />
               <h5>Herbal Products</h5>
             </div>
           </div>
 
           <div className="col" data-aos="fade-up">
-            <div className="product-card shadow-sm rounded h-100 p-4 d-flex flex-column justify-content-center" style={{ minHeight: "280px" }}>
+            <div className="product-card shadow-sm rounded h-100 p-4 d-flex flex-column justify-content-center product-card-min">
               <img src={HerbalCosmetics} alt="Herbal Cosmetics" className="product-img mb-3" />
               <h5>Herbal Cosmetics</h5>
             </div>
           </div>
 
           <div className="col" data-aos="fade-left">
-            <div className="product-card shadow-sm rounded h-100 p-4 d-flex flex-column justify-content-center" style={{ minHeight: "280px" }}>
+            <div className="product-card shadow-sm rounded h-100 p-4 d-flex flex-column justify-content-center product-card-min">
               <img src={nutraImg} alt="Nutraceuticals" className="product-img mb-3" />
               <h5>Nutraceutical Products</h5>
             </div>
           </div>
 
           <div className="col" data-aos="fade-right">
-            <div className="product-card shadow-sm rounded h-100 p-4 d-flex flex-column justify-content-center" style={{ minHeight: "280px" }}>
+            <div className="product-card shadow-sm rounded h-100 p-4 d-flex flex-column justify-content-center product-card-min">
               <img src={cosmeticsImg} alt="Cosmetics" className="product-img mb-3" />
               <h5>Cosmetic Products</h5>
             </div>
