@@ -4,7 +4,7 @@ import CountUp from "react-countup";
 import { useInView } from "react-intersection-observer";
 import "aos/dist/aos.css";
 import React, { useEffect } from "react";
-import productbanner from "../../assets/productbanner.png"
+import productbanner from "../../assets/ourproduct.png"
 import { Container } from "react-bootstrap";
 
 

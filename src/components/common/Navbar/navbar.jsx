@@ -49,6 +49,9 @@ const PharmaNavbar = () => {
             <Nav.Link as={NavLink} to="/services">
               Services
             </Nav.Link>
+            <Nav.Link as={NavLink} to="/therapeutic">
+              Theraputic segment
+            </Nav.Link>
             <Nav.Link as={NavLink} to="/rnd">
               Research & Development
             </Nav.Link>

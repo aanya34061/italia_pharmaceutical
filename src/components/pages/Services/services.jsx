@@ -55,14 +55,9 @@ const Service = () => {
           src={Servicesslider}
           alt="Banner"
           className="img-fluid w-100 slider-img"
-          style={{ height: "60vh", objectFit: "cover", filter: "brightness(0.7)" }}
         />
         <div className="position-absolute top-50 start-50 translate-middle text-center text-white">
-          <h1
-            className="fw-bold display-5"
-            data-aos="zoom-in"
-            data-aos-duration="1000"
-          >
+          <h1 className="fw-bold display-5" data-aos="zoom-in" data-aos-duration="1000">
             {/* Our Expertise in Every Dose */}
           </h1>
         </div>
@@ -91,18 +86,7 @@ const Service = () => {
                 data-aos="fade-up"
                 data-aos-delay={index * 150}
               >
-                <div
-                  className="rounded-circle d-flex align-items-center justify-content-center mx-auto mb-3"
-                  style={{
-                    width: "70px",
-                    height: "70px",
-                    backgroundColor: "var(--Cinderella)",
-                    color: "var(--EasternBlue)",
-                    fontSize: "2rem",
-                  }}
-                >
-                  {service.icon}
-                </div>
+                <div className="service-icon mb-3">{service.icon}</div>
                 <Card.Title className="fw-bold text-easternblue mb-2">
                   {service.title}
                 </Card.Title>
@@ -127,18 +111,7 @@ const Service = () => {
                 data-aos="fade-up"
                 data-aos-delay={index * 150}
               >
-                <div
-                  className="rounded-circle d-flex align-items-center justify-content-center mx-auto mb-3"
-                  style={{
-                    width: "70px",
-                    height: "70px",
-                    backgroundColor: "var(--Cinderella)",
-                    color: "var(--EasternBlue)",
-                    fontSize: "2rem",
-                  }}
-                >
-                  {service.icon}
-                </div>
+                <div className="service-icon mb-3">{service.icon}</div>
                 <Card.Title className="fw-bold text-easternblue mb-2">
                   {service.title}
                 </Card.Title>
@@ -151,30 +124,16 @@ const Service = () => {
         </Row>
 
         {/* ---------- Why Choose Us ---------- */}
-        <div
-          className="text-center p-5 rounded-4"
-          style={{ backgroundColor: "var(--Cinderella)" }}
-          data-aos="fade-up"
-        >
+        <div className="why-choose-us text-center p-5 rounded-4" data-aos="fade-up">
           <h3 className="services-heading mb-4">
             Why Choose Italia Pharmaceuticals?
           </h3>
-          <ul className="list-unstyled text-muted text-start mx-auto" style={{ maxWidth: "700px" }}>
-            <li className="mb-2">
-              ✔ Eight GMP-compliant production sections ensuring top-quality output.
-            </li>
-            <li className="mb-2">
-              ✔ Patented molecules and international collaborations for innovation.
-            </li>
-            <li className="mb-2">
-              ✔ Large-scale production: tablets, capsules, liquids, ointments & more.
-            </li>
-            <li className="mb-2">
-              ✔ Reliable distribution network for domestic & international clients.
-            </li>
-            <li className="mb-2">
-              ✔ Dedicated R&D and regulatory support for every partnership.
-            </li>
+          <ul className="list-unstyled text-muted text-start mx-auto max-w-700">
+            <li className="mb-2">✔ Eight GMP-compliant production sections ensuring top-quality output.</li>
+            <li className="mb-2">✔ Patented molecules and international collaborations for innovation.</li>
+            <li className="mb-2">✔ Large-scale production: tablets, capsules, liquids, ointments & more.</li>
+            <li className="mb-2">✔ Reliable distribution network for domestic & international clients.</li>
+            <li className="mb-2">✔ Dedicated R&D and regulatory support for every partnership.</li>
           </ul>
         </div>
       </Container>

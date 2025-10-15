@@ -56,34 +56,45 @@ const About = () => {
       </section>
 
       {/* Mission & Vision */}
-      <section className="services-section py-5">
-        <div className="container">
-          <h2 className="services-heading text-center mb-5" data-aos="fade-up">
-            Our Mission & Vision
-          </h2>
-          <div className="row g-4">
-            <div className="col-md-6" data-aos="fade-right">
-              <div className="service-card p-4 rounded shadow-sm h-100">
-                <h4 className="mb-3 text-easternblue">Mission</h4>
-                <p className="text-justify">
-                  To enhance healthcare accessibility by providing affordable, 
-                  safe, and effective medicines that meet the highest international 
-                  quality standards.
-                </p>
-              </div>
-            </div>
-            <div className="col-md-6" data-aos="fade-left">
-              <div className="service-card p-4 rounded shadow-sm h-100">
-                <h4 className="mb-3 text-easternblue">Vision</h4>
-                <p className="text-justify">
-                  To be a trusted global pharmaceutical leader, driven by 
-                  innovation, research, and a commitment to patient well-being.
-                </p>
-              </div>
-            </div>
-          </div>
+      {/* Mission & Vision */}
+<section className="services-section py-5">
+  <div className="container">
+    <h2 className="services-heading text-center mb-5" data-aos="fade-up">
+      Our Mission & Vision
+    </h2>
+    <div className="row g-4">
+      <div className="col-md-6" data-aos="fade-right">
+        <div className="service-card p-4 rounded shadow-sm h-100">
+          <h4 className="mb-3 text-easternblue">Mission</h4>
+          <p className="text-justify">
+            Our mission at <strong>Italia Pharmaceuticals</strong> is to enhance healthcare accessibility and improve the quality of life for patients worldwide. 
+            We aim to achieve this by manufacturing and delivering safe, effective, and affordable medicines that comply with the highest international standards. 
+            We are committed to continuous innovation, rigorous quality control, and fostering partnerships that drive sustainable healthcare solutions.
+          </p>
+          <p className="text-justify mt-2">
+            By combining advanced technology, ethical practices, and deep scientific expertise, our goal is to empower healthcare providers and patients with reliable pharmaceutical products that make a tangible difference every day.
+          </p>
         </div>
-      </section>
+      </div>
+      <div className="col-md-6" data-aos="fade-left">
+        <div className="service-card p-4 rounded shadow-sm h-100">
+          <h4 className="mb-3 text-easternblue">Vision</h4>
+          <p className="text-justify">
+            Our vision is to become a globally recognized pharmaceutical leader known for innovation, excellence, and integrity. 
+            We strive to be at the forefront of medical advancements, delivering breakthrough therapies and solutions that improve patient outcomes.
+          </p>
+          <p className="text-justify mt-2">
+            We envision a future where healthcare is more accessible, reliable, and impactful, and where <strong>Italia Pharmaceuticals</strong> is synonymous with trust, scientific rigor, and a commitment to the well-being of communities worldwide.
+          </p>
+          <p className="text-justify mt-2">
+            Through continuous research, sustainable practices, and collaboration with healthcare professionals, we aim to set new benchmarks in pharmaceutical innovation and create lasting value for patients, partners, and society.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 
       {/* Core Strengths */}
       <section className="popular-products py-5">
