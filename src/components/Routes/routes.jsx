@@ -6,6 +6,8 @@ import Contact from '../pages/Contact/contact'; // Adjust the path as necessary
 import Products from '../pages/Product/product'; // Adjust the path as necessary
 import Services from '../pages/Services/services';
 import TherapeuticSegments from '../pages/Theraputic/theraputic';
+import RnD from '../pages/RD/rnd';
+import Capacity from '../pages/Capacity/capacity';
 const AppRoutes = () => (
   <Routes>
     <Route path="/" element={<Home />} />
@@ -14,6 +16,8 @@ const AppRoutes = () => (
     <Route path="/products" element={<Products />} />
     <Route path="/services" element={<Services/>}/>
     <Route path="/therapeutic" element={<TherapeuticSegments/>}/>
+    <Route path="/rnd" element={<RnD/>}/>
+    <Route path="/capacity" element={<Capacity/>}/>
     </Routes>
 );
 
