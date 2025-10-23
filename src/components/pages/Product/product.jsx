@@ -75,7 +75,7 @@ const Products = () => {
         </div>
 
         {/* ---------- THERAPEUTIC SEGMENTS ---------- */}
-        <div className="mt-5 text-center" data-aos="zoom-in">
+        {/* <div className="mt-5 text-center" data-aos="zoom-in">
           <h4 className="fw-bold fs-3 mb-4" style={{ color: "var(--EasternBlue)" }}>
             Therapeutic Segments
           </h4>
@@ -107,7 +107,7 @@ const Products = () => {
               </span>
             ))}
           </div>
-        </div>
+        </div> */}
 
         {/* ---------- CLIENTS ---------- */}
         <div className="mt-5" data-aos="fade-up">

@@ -130,7 +130,7 @@ const Capacity = () => {
           <Col md={4}>
             <Card className="service-card h-100 p-3 text-center">
               <Card.Body>
-                <h5 className="text-easternblue fw-bold">Dry Syrups</h5>
+                <h5 className="text-easternblue fw-bold">Powder/Granuls</h5>
                 <p className="text-muted mb-0">
                   Capacity: <strong>800,000 bottles/month</strong>
                 </p>
@@ -141,7 +141,7 @@ const Capacity = () => {
           <Col md={4}>
             <Card className="service-card h-100 p-3 text-center">
               <Card.Body>
-                <h5 className="text-easternblue fw-bold">Injectables</h5>
+                <h5 className="text-easternblue fw-bold">Sachets</h5>
                 <p className="text-muted mb-0">
                   Capacity: <strong>500,000 vials/month</strong>
                 </p>
