@@ -4,6 +4,7 @@ import Intro from "../../common/Intro/intro";
 import ServicesSection from "../../common/Services/sevices";
 import Products from "../../common/Products/products";
 import Overview from "../../common/Overview/overview";
+import Marquee from "../../common/marquee/marquee";
 
 const Home = () => {
   return (
@@ -13,6 +14,8 @@ const Home = () => {
       <ServicesSection />
       <Products />
       <Overview />
+      <Marquee />
+      
      
       {/* Additional home page content can go here */}
     </div>

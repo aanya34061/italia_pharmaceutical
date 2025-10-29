@@ -8,6 +8,7 @@ import Services from '../pages/Services/services';
 import TherapeuticSegments from '../pages/Theraputic/theraputic';
 import RnD from '../pages/RD/rnd';
 import Capacity from '../pages/Capacity/capacity';
+
 const AppRoutes = () => (
   <Routes>
     <Route path="/" element={<Home />} />
