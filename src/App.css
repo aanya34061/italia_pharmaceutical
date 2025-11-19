@@ -217,3 +217,57 @@
   transform: scale(1.05);
   box-shadow: 0 8px 20px rgba(30, 137, 158, 0.25); /* EasternBlue glow */
 }
+/* ---------- Navbar Mobile Fixes ---------- */
+
+/* Ensure navbar fills full width */
+.pharma-navbar {
+  width: 100%;
+  z-index: 1000;
+}
+
+/* Prevent content from hiding behind navbar */
+body {
+  padding-top: 70px; /* adjust if navbar height changes */
+}
+
+/* Make navbar items readable and aligned properly */
+/* .navbar-collapse {
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 0 0 10px 10px;
+  padding: 10px 0;
+} */
+
+/* Center links for mobile */
+@media (max-width: 991px) {
+  .pharma-nav {
+    text-align: center;
+  }
+  .pharma-nav .nav-link {
+    display: block;
+    margin: 10px 0;
+    color: #000;
+  }
+  
+}
+
+/* Fix logo scaling on all screens */
+.logo-img {
+  height: auto;
+  max-height: 45px;
+  width: auto;
+  object-fit: contain;
+}
+
+/* Fix image/banners overflowing screen */
+.slider-img,
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Prevent horizontal scrolling issue */
+html,
+body {
+  overflow-x: hidden !important;
+}

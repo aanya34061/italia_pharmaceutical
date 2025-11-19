@@ -50,7 +50,7 @@ const PopularProducts = () => {
           <div className="col" data-aos="fade-right">
             <div className="product-card shadow-sm rounded h-100 p-4 d-flex flex-column justify-content-center product-card-min">
               <img src={cosmeticsImg} alt="Cosmetics" className="product-img mb-3" />
-              <h5>Cosmetic Products</h5>
+              <h5>Cosmeceutical Products</h5>
             </div>
           </div>
         </div>

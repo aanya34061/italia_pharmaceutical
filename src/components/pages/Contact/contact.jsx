@@ -5,7 +5,7 @@ import contactImg from "../../assets/contactus.png";
 import { useForm, ValidationError } from "@formspree/react";
 
 const Contact = () => {
-  const [state, handleSubmit] = useForm("manpgzpl");
+  const [state, handleSubmit] = useForm("xanllbla");
 
   useEffect(() => {
     AOS.init({ duration: 1000, once: true });

@@ -14,14 +14,14 @@ const Service = () => {
   const coreServices = [
     {
       icon: <FaCapsules />,
-      title: "Pharmaceutical Manufacturing",
+      title: "Manufacturing",
       text: "We produce a wide range of dosage forms including tablets, capsules, syrups, ointments, and powders. All our products are manufactured under strict GMP compliance and undergo rigorous quality testing.",
     },
-    {
-      icon: <FaTruck />,
-      title: "Distribution & Supply",
-      text: "Our robust logistics and distribution network ensures timely delivery to clients both domestically and internationally, maintaining product integrity throughout the supply chain.",
-    },
+    // {
+    //   icon: <FaTruck />,
+    //   title: "Distribution & Supply",
+    //   text: "Our robust logistics and distribution network ensures timely delivery to clients both domestically and internationally, maintaining product integrity throughout the supply chain.",
+    // },
     {
       icon: <FaFlask />,
       title: "Research & Development",

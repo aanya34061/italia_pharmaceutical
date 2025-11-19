@@ -70,7 +70,7 @@ const Capacity = () => {
             </p>
             <ul>
               <li>Compliant with WHO-GMP and ISO standards</li>
-              <li>Dedicated zones for sterile and non-sterile manufacturing</li>
+              {/* <li>Dedicated zones for sterile and non-sterile manufacturing</li> */}
               <li>In-house quality control and microbiology labs</li>
               <li>Robust HVAC and water purification systems</li>
             </ul>
@@ -143,7 +143,7 @@ const Capacity = () => {
               <Card.Body>
                 <h5 className="text-easternblue fw-bold">Sachets</h5>
                 <p className="text-muted mb-0">
-                  Capacity: <strong>500,000 vials/month</strong>
+                  Capacity: <strong>500,000 Sachets/month</strong>
                 </p>
               </Card.Body>
             </Card>
@@ -163,8 +163,8 @@ const Capacity = () => {
             </p>
             <ul>
               <li>Integrated ERP for batch traceability</li>
-              <li>Validated equipment with 21 CFR Part 11 compliance</li>
-              <li>Real-time monitoring and data integrity systems</li>
+              {/* <li>Validated equipment with 21 CFR Part 11 compliance</li>
+              <li>Real-time monitoring and data integrity systems</li> */}
             </ul>
           </Col>
           <Col md={6}>

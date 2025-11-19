@@ -33,9 +33,9 @@ const CompanyIntro = () => {
             <p className="text-justify">
               We specialize in multiple dosage forms: <strong>Tablets, Capsules, Oral Liquids, Semi-Solids, Powders, Oils, Creams, Lotions</strong> and more — covering therapeutic segments like <strong>Critical Care, Cardiac, Neurocare, Orthopedics, Gynaecology, Nephrology, Pediatrics, and Cosmetics & Skincare</strong>.
             </p>
-            <p>
+            {/* <p>
               Our prestigious clientele includes <strong>Biological E. Ltd., Cadila Pharmaceuticals, Makers Laboratories (Ipca Group), Pharmeasy</strong> and many more.
-            </p>
+            </p> */}
             <p className="mt-3 text-justify">
               With 8 GMP-compliant sections and a prime location at the heart of the city, Italia Pharmaceuticals is your one-stop solution for world-class healthcare and personal care products.
             </p>

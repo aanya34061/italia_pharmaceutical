@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import aboutslider from "../../assets/ABOUTSLIDER.png";
+import aboutslider from "../../assets/abtslider1.png";
 import about1 from "../../assets/slider1 2.png"; 
 import about2 from "../../assets/slider5.png"; 
 import about3 from "../../assets/slider6.png"; 

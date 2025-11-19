@@ -20,7 +20,7 @@ const Products = () => {
   });
 
   return (
-    <section className="py-5 bg-white">
+    <section className=" bg-white">
       
         {/* ---------- HEADER ---------- */}
         <div className="slider-container">
@@ -110,7 +110,7 @@ const Products = () => {
         </div> */}
 
         {/* ---------- CLIENTS ---------- */}
-        <div className="mt-5" data-aos="fade-up">
+        {/* <div className="mt-5" data-aos="fade-up">
           <h4 className="fw-bold fs-3 text-center mb-4" style={{ color: "var(--Jaffa)" }}>
             Our Prestigious Clients
           </h4>
@@ -131,7 +131,7 @@ const Products = () => {
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
 
         {/* ---------- FACILITY ---------- */}
         <div className="mt-5" data-aos="fade-up">
