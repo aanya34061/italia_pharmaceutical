@@ -271,3 +271,59 @@ html,
 body {
   overflow-x: hidden !important;
 }
+/* ---------- WHY CHOOSE US SECTION (Equal Card Sizes) ---------- */
+.why-heading {
+  color: var(--EasternBlue);
+  font-size: 2.1rem;
+  text-shadow: 0 0 10px rgba(30, 137, 158, 0.35);
+  text-align: center ;
+}
+
+.highlight-text {
+  color: var(--Jaffa);
+  font-weight: 800;
+  text-shadow: 0 0 12px rgba(244, 132, 52, 0.35);
+}
+.why-list {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding-left: 0;
+  align-items: center;
+}
+
+/* Same-size cards */
+.why-item {
+  background: white;
+  padding: 18px 20px;
+  border-radius: 12px;
+  width: 80%;                /* SAME FIXED WIDTH */
+  min-height: 90px;          /* SAME HEIGHT */
+  max-width: 650px;          /* stops it from stretching too wide */
+  text-align: center;
+  font-weight: 600;
+  color: #333;
+
+  border: 2px solid var(--EasternBlue);
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.15);
+
+  display: flex;             /* keeps text centered vertically */
+  align-items: center;       /* vertical centering */
+  justify-content: center;   /* horizontal centering */
+
+  transition: all 0.3s ease;
+}
+
+.why-item:hover {
+  transform: translateY(-6px) scale(1.03);
+  box-shadow: 0 8px 28px rgba(30, 137, 158, 0.4);
+}
+
+/* Center icon + text */
+.tick {
+  font-size: 1.7rem;
+  font-weight: 900;
+  color: var(--Jaffa);
+  margin-right: 12px;
+  text-shadow: 0 0 10px rgba(244, 132, 52, 0.45);
+}

@@ -5,6 +5,7 @@ import ServicesSection from "../../common/Services/sevices";
 import Products from "../../common/Products/products";
 import Overview from "../../common/Overview/overview";
 import Marquee from "../../common/marquee/marquee";
+import { Container } from "react-bootstrap";
 
 const Home = () => {
   return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import slide1 from '../../assets/ADJUSTED.png'; // Ensure you have an image at this path or update the path accordingly
+import slide1 from '../../assets/updatedhome.png'; // Ensure you have an image at this path or update the path accordingly
 
 const ImageSlider = () => {
   return (

@@ -124,7 +124,7 @@ const Service = () => {
         </Row>
 
         {/* ---------- Why Choose Us ---------- */}
-        <div className="why-choose-us text-center p-5 rounded-4" data-aos="fade-up">
+        {/* <div className="why-choose-us text-center p-5 rounded-4" data-aos="fade-up">
           <h3 className="services-heading mb-4">
             Why Choose Italia Pharmaceuticals?
           </h3>
@@ -135,7 +135,40 @@ const Service = () => {
             <li className="mb-2">✔ Reliable distribution network for domestic & international clients.</li>
             <li className="mb-2">✔ Dedicated R&D and regulatory support for every partnership.</li>
           </ul>
-        </div>
+        </div> */}
+        <div className="why-choose-us-section p-5 rounded-4" data-aos="fade-up">
+  <h3 className="why-heading mb-4 fw-bold">
+    Why Choose <span className="highlight-text">Italia Pharmaceuticals?</span>
+  </h3>
+
+  <ul className="why-list list-unstyled mx-auto max-w-700 fs-6">
+    <li className="why-item d-flex justify-content-center align-items-center">
+      <span className="tick">✔</span>
+      Eight GMP-compliant production sections ensuring top-quality output.
+    </li>
+
+    <li className="why-item d-flex justify-content-center align-items-center">
+      <span className="tick">✔</span>
+      Patented molecules and international collaborations driving innovation.
+    </li>
+
+    <li className="why-item d-flex justify-content-center align-items-center">
+      <span className="tick">✔</span>
+      Large-scale production: tablets, capsules, liquids, ointments & more.
+    </li>
+
+    <li className="why-item d-flex justify-content-center align-items-center">
+      <span className="tick">✔</span>
+      Reliable domestic & international distribution network.
+    </li>
+
+    <li className="why-item d-flex justify-content-center align-items-center">
+      <span className="tick">✔</span>
+      Dedicated R&D and regulatory support for every partnership.
+    </li>
+  </ul>
+</div>
+
       </Container>
     </section>
   );
